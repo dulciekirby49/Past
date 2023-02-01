@@ -1,0 +1,18 @@
+{
+  "name": "Houssam-Bot",
+  "description": "Follow me on Instagram: @houssam_iii (≧▽≦)",
+  "repository": "https://github.com/houssamatfi",
+  "logo": "https://raw.githubusercontent.com/Shizu-Hub/Shizu-Bot/master/Menu2.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },
+  {
+    "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+  }    
+ ]
+}
